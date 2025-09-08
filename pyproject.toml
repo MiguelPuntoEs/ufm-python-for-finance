@@ -1,0 +1,11 @@
+[project]
+name = "ufm-python-for-finance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fredapi>=0.5.2",
+    "matplotlib>=3.10.6",
+    "python-dotenv>=1.1.1",
+]
