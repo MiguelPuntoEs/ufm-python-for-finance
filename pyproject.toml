@@ -8,6 +8,7 @@ dependencies = [
     "fredapi>=0.5.2",
     "ipykernel>=6.30.1",
     "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
     "pandas>=2.3.2",
     "python-dotenv>=1.1.1",
 ]
