@@ -56,3 +56,5 @@ Se recomienda usar los siguientes comandos:
 * `uv sync`: sincronizar con la configuración en `pyproject.toml`
 
 Una vista general de comandos puede ser consultado en [Features](https://docs.astral.sh/uv/getting-started/features/#the-pip-interface).
+
+Última edición: 22 de septiembre de 2025.
