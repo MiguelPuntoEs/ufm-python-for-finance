@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "comtradeapicall>=1.2.1",
+    "darts>=0.38.0",
     "fastparquet>=2024.11.0",
     "fredapi>=0.5.2",
     "httpx>=0.28.1",
