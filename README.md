@@ -5,8 +5,9 @@ Este es el repositorio con los contenidos vistos en el curso de **Python for Fin
 ## Requisitos
 
 Para seguir el curso se necesita realizar la instalación de los siguientes programas:
-* [Visual Studio Code](https://code.visualstudio.com)
-* [Python 3.13](https://www.python.org)
+
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Python 3.13](https://www.python.org)
 
 ### Windows
 
@@ -23,6 +24,7 @@ brew install python
 ```
 
 Y para Visual Studio Code:
+
 ```bash
 brew install --cask visual-studio-code
 ```
@@ -30,12 +32,13 @@ brew install --cask visual-studio-code
 ### Extensiones
 
 Además, se recomienda instalar las siguientes extensiones para Visual Studio Code:
-* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
 ### Enlaces de interés
-* [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 
+- [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 
 ## Gestor de paquetes
 
@@ -50,10 +53,11 @@ Para usuarios de Mac se recomienda instalar con el gestor de paquetes [Brew](htt
 ### Uso
 
 Se recomienda usar los siguientes comandos:
-* `uv init`: inicializar proyecto.
-* `uv add <package>`: añadir paquete
-* `uv remove <package>`: eliminiar paquete
-* `uv sync`: sincronizar con la configuración en `pyproject.toml`
+
+- `uv init`: inicializar proyecto.
+- `uv add <package>`: añadir paquete
+- `uv remove <package>`: eliminiar paquete
+- `uv sync`: sincronizar con la configuración en `pyproject.toml`
 
 Una vista general de comandos puede ser consultado en [Features](https://docs.astral.sh/uv/getting-started/features/#the-pip-interface).
 
@@ -64,6 +68,7 @@ Las entregas consistirán en un fichero de tipo Jupyter Notebook, que llevará e
 ### Entrega 1. Procesado de CSV
 
 En esta entrega os familiarizaréis con la lectura de CSV y el procesado básico en Pandas. Para ello:
+
 1. Descargad un set de datos en CSV que os interese (e.g. de la Reserva Federal, o de cualquier otra fuente)
 2. Leedlo con `pd.read_csv`
 3. Examinad qué hay dentro (`.head()`, `.describe()`...)
@@ -71,8 +76,9 @@ En esta entrega os familiarizaréis con la lectura de CSV y el procesado básico
 
 ### Entrega 2. Datos OCDE
 
-En esta entrega tenéis que graficar agregados monetarios procedentes del portal de datos de la OECD. Para ello os dejo como referencia un notebook que os he preparado, y cuyas funciones podéis usar: https://github.com/MiguelPuntoEs/ufm-python-for-finance/blob/main/07%20OECD.ipynb
+En esta entrega tenéis que graficar agregados monetarios procedentes del portal de datos de la OECD. Para ello os dejo como referencia un notebook que os he preparado, y cuyas funciones podéis usar: <https://github.com/MiguelPuntoEs/ufm-python-for-finance/blob/main/07%20OECD.ipynb>
 En esta entrega tenéis que graficar los agregados M1 (*narrow money*) y M3 (*broad money*) para tres países de vuestra elección. Os pido, en una misma gráfica para los tres países:
+
 - Gráfica con M1
 - Gráfica con M3
 - Gráfica con M1 y M3
@@ -94,11 +100,11 @@ Carga un dataset que consideres interesante (e.g. uno de los que proporciona la 
 ### Entrega 5. Series temporales
 
 Busca una serie temporal que muestre periodicidad y tendencia y descarga los datos en formato CSV.
+
 1. Carga los datos usando la librería `darts`.
 2. Grafica los datos.
 3. Realiza un split entrenamiento/test.
 4. Busca otras series temporales que puedan tener relación o causalidad con esta serie temporal, impórtalas y grafícalas.
 5. Explora las [métricas de error](https://unit8co.github.io/darts/generated_api/darts.metrics.html) que ofrece darts.
-
 
 Última edición: 22 de septiembre de 2025.
